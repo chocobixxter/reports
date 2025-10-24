@@ -1,0 +1,34 @@
+# Database backups
+*.sql.backup
+backup_*.sql
+backups/
+
+# CSV exports
+*.csv
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+
+# Docker volumes (managed by docker-compose)
+postgres_data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
